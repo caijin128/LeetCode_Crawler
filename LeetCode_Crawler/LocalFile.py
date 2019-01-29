@@ -26,7 +26,7 @@ class LocalFile:
         file = open(self.root_path + 'README.md', 'w')
         file.write(
             '<p align="center"><img src="https://theme.zdassets.com/theme_assets/9008406/036323c6afd10392aa5b7e3a2eb7557d17955c81.png"></p>')
-        file.write("<h3 align='center'><strong>LeetCode Solutions</strong></center></h2>")
+        file.write("<h3 align='center'><strong>LeetCode Solutions</strong></center></h3>")
         file.write('<p align="center">Last Updated: ' + time + '</p>')
         file.write(
             '<p align="center">Crawled by <a href = "https://github.com/ZintrulCre/LeetCode_Crawler">ZintrulCre/LeetCode_Crawler</a></p>\n\n')
